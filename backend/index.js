@@ -13,7 +13,7 @@ import { PineconeStore } from '@langchain/pinecone';
 
 
 
-const PDF_PATH = 'backend/data/Dsa.pdf';
+const PDF_PATH = './data/Dsa.pdf';
  
 function getFileHash(filePath) {
   const buffer = fs.readFileSync(filePath);
