@@ -1,0 +1,26 @@
+{
+  "name": "ragsystem",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "run": "node query.js"
+  },
+  "dependencies": {
+    "@langchain/community": "1.1.1",
+    "@langchain/google-genai": "1.0.3",
+    "@langchain/pinecone": "1.0.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "5.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "groq-sdk": "^0.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

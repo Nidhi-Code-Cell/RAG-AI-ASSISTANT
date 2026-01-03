@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RagChatBot</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <div class="avtar">🤖</div>
+            <div class="header-info">
+                <h2>Chat Cortex</h2>
+                <p><div class="status-dot"></div> online</p>
+            </div>
+        </div>
+
+        <div class="chat-masg">
+            
+
+
+        </div>
+
+        <div class="chat-footer">
+          
+            <button id="new" onclick="getNewpage()" >+   <span class="tooltip">New page</span>
+</button>
+            <div class="input-wrap"></div>
+            <input type="text" placeholder="Type your message....">
+            <div class="send-query">
+                <button id="send" onclick="sendQuery()">➤</button>
+            </div>
+        </div>
+
+    </div>
+   <script src="./logic.js"></script>
+</body>
+</html>
